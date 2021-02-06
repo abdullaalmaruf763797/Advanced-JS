@@ -16,9 +16,9 @@ const output = [];
 //     return element * element;
 // });
 
-// const result = numbers.map(x => x *x);
-// console.log(result);
-const result = numbers.filter(x => x > 5);
-//const result = numbers.find(x => x > 5);
+const result = numbers.map(x => x *x);
+console.log(result);
+// const result = numbers.filter(x => x > 5);
+const result = numbers.find(x => x > 5);
 
 console.log(result);
